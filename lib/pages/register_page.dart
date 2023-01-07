@@ -33,7 +33,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 Row(
                   children: const [
                     Text(
-                      'Welcome there',
+                      'Hello, there',
                       style: TextStyle(
                         fontSize: 38,
                         fontWeight: FontWeight.bold,

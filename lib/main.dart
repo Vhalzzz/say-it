@@ -1,7 +1,10 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
+import 'package:say_it/pages/home_page.dart';
+
 import 'package:say_it/utils/login_register_toggle.dart';
+import 'package:say_it/widgets/bottom_n_b.dart';
 
 import 'firebase_options.dart';
 
@@ -23,6 +26,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.indigo,
         ),
-        home: const ToggleUtils());
+        home: const BottomNavBarWidget());
   }
 }

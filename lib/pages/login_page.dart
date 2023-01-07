@@ -107,6 +107,7 @@ class _LoginPageState extends State<LoginPage> {
 
                 //  sign in button
                 InkWell(
+                  onTap: () {},
                   child: Container(
                     width: double.infinity,
                     height: 60,
